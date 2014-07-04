@@ -1,0 +1,12 @@
+[submodule ".gopath/src/github.com/BurntSushi/toml"]
+	path = .gopath/src/github.com/BurntSushi/toml
+	url = https://github.com/BurntSushi/toml
+[submodule ".gopath/src/github.com/go-sql-driver/mysql"]
+	path = .gopath/src/github.com/go-sql-driver/mysql
+	url = https://github.com/go-sql-driver/mysql
+[submodule ".gopath/src/github.com/jessevdk/go-flags"]
+	path = .gopath/src/github.com/jessevdk/go-flags
+	url = https://github.com/jessevdk/go-flags
+[submodule ".gopath/src/polydawn.net/pogo"]
+	path = .gopath/src/polydawn.net/pogo
+	url = https://github.com/polydawn/pogo
