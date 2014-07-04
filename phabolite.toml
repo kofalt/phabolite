@@ -1,0 +1,18 @@
+#
+#	Example phabolite configuration
+#
+
+# MySQL connection string
+server = "unix(/var/run/mysql/mysqld.sock)"
+
+# MySQL account credentials
+credentials = "phabolite:terriblePassword"
+
+# SSH access string
+ssh = "git@127.0.0.1"
+
+# Loop forever?
+loop = false
+
+# How many seconds to wait between loops, if enabled
+waitseconds = 30
