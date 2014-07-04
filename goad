@@ -1,0 +1,18 @@
+#!/bin/bash
+
+# Where is this script located?
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+# Project details
+pkg="kofalt.com"
+name="phabolite"
+
+(
+	cd "$DIR"
+
+	export GOPATH="$PWD"/.gopath/
+	export BASEDIR="$PWD"
+
+	go build -o $name $pkg/$name/main
+)
+
