@@ -47,6 +47,6 @@ const Query = "SELECT userName, isAdmin, keyBody, keyType, " + // the droids we'
 			"ssh.keybody IS NOT NULL AND " +                   // who knows if we need these
 			"ssh.keyType IS NOT NULL AND " +                   // and who cares
 			"u.username REGEXP " + Regex_Username + " AND " +  // validate usernames
-			"ssh.keybody REGEXP " + Regex_KeyBody +            // validate usernames
+			"ssh.keybody REGEXP " + Regex_KeyBody +            // validate keybodies
 
 			"ORDER BY ssh.id"                                  // consistent ordering by key ID, for change detection
